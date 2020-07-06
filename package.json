@@ -1,0 +1,16 @@
+{
+  "name": "al-piispanen",
+  "version": "0.0.1",
+  "description": "",
+  "main": ".vitepress/config.js",
+  "scripts": {
+    "start": "vitepress"
+  },
+  "keywords": [],
+  "author": "Aljona Piispanen",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "folio": "file:packages-dist\\folio-0.0.1.tgz",
+    "vitepress": "file:packages-dist\\vitepress-0.4.1.tgz"
+  }
+}
