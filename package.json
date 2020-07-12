@@ -4,13 +4,16 @@
   "description": "",
   "main": ".vitepress/config.js",
   "scripts": {
-    "start": "vitepress"
+    "start": "vitepress",
+    "build": "vitepress build",
+    "pack": "pack-workspace-deps"
   },
   "keywords": [],
   "author": "Aljona Piispanen",
   "license": "UNLICENSED",
   "dependencies": {
-    "folio": "file:packages-dist\\folio-0.0.1.tgz",
-    "vitepress": "file:packages-dist\\vitepress-0.4.1.tgz"
+    "config": "workspace:^0.0.1",
+    "folio": "workspace",
+    "vitepress": "workspace"
   }
 }
