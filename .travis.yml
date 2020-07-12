@@ -25,4 +25,4 @@ deploy:
   target-branch: master
   local-dir: .vitepress/dist
   on:
-    branch: master
+    branch: develop
