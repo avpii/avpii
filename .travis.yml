@@ -1,0 +1,28 @@
+language: node_js
+node_js:
+  - "14"
+
+cache:
+  directories:
+    - "node_modules"
+
+branches:
+  only:
+  - master
+
+install:
+  - npm install -g pnpm
+  - pnpm install
+  - pnpm run build
+
+script:
+  - echo "Nothing to test"
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github-token: $GITHUB_ACCESS_TOKEN
+  target-branch: gh-pages
+  local-dir: .vitepress/dist
+  on:
+    branch: master
