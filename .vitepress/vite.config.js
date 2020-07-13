@@ -1,3 +1,3 @@
-const theme = require('folio')
+const { viteConfig } = require('folio')
 
-module.exports = theme()
+module.exports = viteConfig()

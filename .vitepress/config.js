@@ -1,4 +1,6 @@
-module.exports = {
+const { themeConfig } = require('folio')
+
+module.exports = themeConfig({
   title: 'Aljona Piispanen',
   description: 'My portfolio site: illustrations and artworks',
   themeConfig: {
@@ -21,4 +23,4 @@ module.exports = {
       { text: 'Contact', link: '/contact/' },
     ],
   },
-}
+})
