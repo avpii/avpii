@@ -1,5 +1,14 @@
 {
   "githubPullRequests.queries": [],
+  "githubPullRequests.fileListLayout": "flat",
+  "githubPullRequests.telemetry.enabled": false,
   "editor.tabSize": 2,
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "git.enableSmartCommit": true,
+  "git.supportCancellation": true,
+  "git.autoStash": true,
+  "git.fetchOnPull": true,
+  "git.promptToSaveFilesBeforeCommit": "staged",
+  "git.showPushSuccessNotification": true,
+  "git.smartCommitChanges": "all"
 }
