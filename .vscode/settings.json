@@ -2,6 +2,7 @@
   "githubPullRequests.queries": [],
   "githubPullRequests.fileListLayout": "flat",
   "githubPullRequests.telemetry.enabled": false,
+  "githubPullRequests.pullRequestTitle": "commit",
   "editor.tabSize": 2,
   "editor.formatOnSave": true,
   "git.enableSmartCommit": true,
@@ -11,5 +12,5 @@
   "git.promptToSaveFilesBeforeCommit": "staged",
   "git.showPushSuccessNotification": true,
   "git.smartCommitChanges": "all",
-  "githubPullRequests.pullRequestTitle": "commit"
+  "git.postCommitCommand": "sync"
 }
