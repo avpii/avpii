@@ -4,3 +4,4 @@ node_modules
 dist
 *.local
 temp
+pnpm-lock.yaml
