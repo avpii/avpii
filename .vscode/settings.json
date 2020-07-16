@@ -10,5 +10,6 @@
   "git.fetchOnPull": true,
   "git.promptToSaveFilesBeforeCommit": "staged",
   "git.showPushSuccessNotification": true,
-  "git.smartCommitChanges": "all"
+  "git.smartCommitChanges": "all",
+  "githubPullRequests.pullRequestTitle": "commit"
 }
