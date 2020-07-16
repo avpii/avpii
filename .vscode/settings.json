@@ -1,10 +1,5 @@
 {
-  "githubPullRequests.queries": [
-    {
-      "label": "Content",
-      "query": "is:open label:content"
-    },
-  ],
+  "githubPullRequests.queries": [],
   "editor.tabSize": 2,
   "editor.formatOnSave": true
 }
