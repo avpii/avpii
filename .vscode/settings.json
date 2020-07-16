@@ -12,5 +12,8 @@
   "git.promptToSaveFilesBeforeCommit": "staged",
   "git.showPushSuccessNotification": true,
   "git.smartCommitChanges": "all",
-  "git.postCommitCommand": "sync"
+  "git.postCommitCommand": "sync",
+  "markdownlint.config": {
+    "MD033": false
+  }
 }
