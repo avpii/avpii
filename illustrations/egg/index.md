@@ -9,8 +9,6 @@ relevant:
 ---
 
 Character
-<br>
-<br>
 
 ![Egg full](/assets/egg/img-1.png)
 
