@@ -13,7 +13,7 @@
   "license": "UNLICENSED",
   "dependencies": {
     "config": "workspace:^0.0.1",
-    "folio": "workspace:^0.0.2",
+    "folio": "workspace:^0.0.3",
     "vitepress": "workspace:^0.4.1"
   }
 }
